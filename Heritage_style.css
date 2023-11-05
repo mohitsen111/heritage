@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Navigation-Menu*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgb(197, 189, 189);
+    height: 55px;
+    padding: 10px 30px;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    padding-left: 30px;
+}
+.logo a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    list-style: none;
+    padding-right: 75px;
+}
+.navigation ul li{
+    padding: 10px;
+    margin: 10px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 10px;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.navigation ul li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: 2;
+}
+
+/*Cover-page_Cover*/
+.page2{
+    width: 100%;
+    height: 400px;  
+    padding: 80px 60px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;   
+    background: linear-gradient(180deg, rgba(8, 8, 8, 0.89), rgba(0,0,0,.6)), url("/Picture/hd4.jpg") center no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.page2-cont{
+    overflow: hidden;
+    width: 45%;
+    height: 100%;
+    padding: 10px;
+}
+.page2 h1{
+    font-size: 80px;
+    color: rgb(244, 218, 17);
+}
+.page2 p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* Heritage container*/
+
+.heritage-container{
+    position: relative;
+    padding: 80px 80px;
+    height: 340vh;
+    width: 100%;
+    background: linear-gradient(240deg, rgb(202, 155, 155),rgb(94, 166, 179),rgb(80, 169, 158));
+}
+.Heritage-content h3{
+    color: white;
+    font-size: 30px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100%;
+    padding: 80px 150px ;
+    overflow: hidden;
+    grid-gap: 40px 20px;
+}
+.item{
+    
+    position: absolute;
+    box-shadow: 9px 7px 12px  rgba(0, 0, 0, 0.638);
+}
+.grid2 a{
+    text-decoration: none;
+    transition: all .3s ease-in-out;         
+    box-shadow: 0px 0px 12px rgb(53, 10, 10);
+    
+}
+.grid2 a:hover{
+    transform: translateY(10px);
+    box-shadow: 0px 12px 12px rgb(53, 10, 10);
+}
+#Heritage1{
+    background: url(./Picture/Rajwada_Palace_Main.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+#Heritage1 h3{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+#Heritage1 p{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+#Heritage2{
+    background: url(./Picture/Lalbagh_Palace\,_Indore.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+}
+#Heritage3{
+    background: url(./Picture/JahazMahal.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+    
+}
+#Heritage4{
+    background: url(./Picture/18383177Indore_Mahatma_Gandhi_Hall_Main.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+}
+#Heritage5{
+    background: url(./Picture/183831710Indore_Khajrana_Ganesh_Temple_Main.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+}
+#Heritage6{background: url(./Picture/1280px-Indore_Krishnapura_Chhatri.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+}
+#Heritage7{
+    background: url(./Picture/SukhnivasPalace.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+}
+#Heritage8{
+    background: url(./Picture/Phooti_Kothi_1__DO_NOT_TAKE_.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+}
+#Heritage9{
+    background: url(./Picture/gomatgiri.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Heritage-content{
+    text-align: center;
+    padding: 15px;
+    transform: translateY(460px);
+}
+.op{
+    position: relative;
+    grid-column: 2/span 1;
+}
+
+#Heritage-end{
+    background: url(./Picture/white-church.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+  
+}
+
+.Heritage-content_1{
+    text-align: center;
+    padding: 15px;
+    transform: translateY(430px);
+    color: white;
+    font-size: 25px;
+}
+.Heritage-content5{
+    text-align: center;
+    padding: 15px;
+    transform: translateY(440px);
+    color: white;
+    font-size: 25px;
+}

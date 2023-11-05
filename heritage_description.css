@@ -1,0 +1,504 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Navigation-Menu*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgb(197, 189, 189);
+    height: 55px;
+    padding: 10px 30px;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    padding-left: 30px;
+}
+.logo a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    list-style: none;
+    padding-right: 75px;
+}
+.navigation ul li{
+    padding: 10px;
+    margin: 10px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 10px;
+    letter-spacing: 1px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+   
+}
+.navigation ul li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: 2;
+}
+.container{
+    padding: 100px 150px;
+    height: 145vh;
+    width: 100%;
+    background: linear-gradient(240deg, rgb(177, 135, 135),rgb(82, 118, 157),rgb(15, 95, 87));
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 600px auto;
+    height: 60%;
+    margin: 20px 30px;
+    overflow: hidden;
+    background-color: aliceblue;
+   
+}
+#name{
+    position: relative;
+    padding: 18px;
+}
+#name-content1{
+    height: 400px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#name-content1 h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+#name-content1 p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#name-content2{
+    height: 400px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#name-content2 h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+#name-content2 p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#name-content3{
+    height: 400px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#name-content3 h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+#name-content3 p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#name-content4{
+    height: 400px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#name-content4 h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+#name-content4 p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#name-content5{
+    height: 400px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#name-content5 h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+#name-content5 p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#name-content6{
+    height: 400px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#name-content6 h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+#name-content6 p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#name-content7{
+    height: 400px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#name-content7 h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+#name-content7 p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#name-content8{
+    height: 400px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#name-content8 h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+#name-content8 p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#name-content9{
+    height: 400px;
+    width: 450px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#name-content9 h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+#name-content9 p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#name-content10{
+    height: 400px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#name-content10 h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+#name-content10 p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 32px;
+}
+.bt1{
+  background-color:rgb(4, 20, 17);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-left: 40px;
+  cursor: pointer;
+  display: inline-block;
+  width: 180px;
+  height: 55px;
+}
+
+
+#pic1{
+    border: 1px solid black;
+    background: url(./Picture/Rajwada_Palace_Main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#pic2{
+    border: 1px solid black;
+    background: url(./Picture/Lalbagh_Palace\,_Indore.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#pic3{
+    border: 1px solid black;
+    background: url(./Picture/1530689135_jahaz-mahal-03.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#pic4{
+    border: 1px solid black;
+    background: url(./Picture/18383177Indore_Mahatma_Gandhi_Hall_Main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#pic5{
+    border: 1px solid black;
+    background: url(./Picture/183831710Indore_Khajrana_Ganesh_Temple_Main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#pic6{
+    border: 1px solid black;
+    background: url(./Picture/1280px-Indore_Krishnapura_Chhatri.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#pic7{
+    border: 1px solid black;
+    background: url(./Picture/SukhnivasPalace.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#pic8{
+    border: 1px solid black;
+    background: url(./Picture/Phooti_Kothi_1__DO_NOT_TAKE_.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#pic9{
+    border: 1px solid black;
+    background: url(./Picture/gomatgiri.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#pic10{
+    border: 1px solid black;
+    background: url(./Picture/white-church.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.history{
+    padding: 0 30px;
+    margin:0;
+    height: 400px;
+    text-align: center;
+}
+#history-container1{
+    margin-top: 20px;
+    height: 350px;
+    padding: 20px 140px;
+    background-color: rgb(230, 245, 240);
+}
+#history-container1 h2{
+    font-size: 60px;
+}
+#history-container1 p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#history-container2{
+    margin-top: 20px;
+    height: 350px;
+    padding: 20px 140px;
+    background-color: rgb(230, 245, 240);
+}
+#history-container2 h2{
+    font-size: 60px;
+}
+#history-container2 p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#history-container3{
+    margin-top: 20px;
+    height: 350px;
+    padding: 20px 140px;
+    background-color: rgb(230, 245, 240);
+}
+#history-container3 h2{
+    font-size: 60px;
+}
+#history-container3 p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#history-container4{
+    margin-top: 20px;
+    height: 350px;
+    padding: 20px 140px;
+    background-color: rgb(230, 245, 240);
+}
+#history-container4 h2{
+    font-size: 60px;
+}
+#history-container4 p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#history-container5{
+    margin-top: 20px;
+    height: 350px;
+    padding: 20px 140px;
+    background-color: rgb(230, 245, 240);
+}
+#history-container5 h2{
+    font-size: 60px;
+}
+#history-container5 p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#history-container6{
+    margin-top: 20px;
+    height: 350px;
+    padding: 20px 140px;
+    background-color: rgb(230, 245, 240);
+}
+#history-container6 h2{
+    font-size: 60px;
+}
+#history-container6 p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#history-container7{
+    margin-top: 20px;
+    height: 350px;
+    padding: 20px 140px;
+    background-color: rgb(230, 245, 240);
+}
+#history-container7 h2{
+    font-size: 60px;
+}
+#history-container7 p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#history-container8{
+    margin-top: 20px;
+    height: 350px;
+    padding: 20px 140px;
+    background-color: rgb(230, 245, 240);
+}
+#history-container8 h2{
+    font-size: 60px;
+}
+#history-container8 p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#history-container9{
+    margin-top: 20px;
+    height: 350px;
+    padding: 20px 140px;
+    background-color: rgb(230, 245, 240);
+}
+#history-container9 h2{
+    font-size: 60px;
+}
+#history-container9 p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+#history-container10{
+    margin-top: 20px;
+    height: 350px;
+    padding: 20px 140px;
+    background-color: rgb(230, 245, 240);
+}
+#history-container10 h2{
+    font-size: 60px;
+}
+#history-container10 p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    height: 230px;
+    width: 100%;
+    background-color: rgba(32, 29, 76, 0.903);
+}
+.ft1{
+    display: inline-block;
+    margin-top: 30px;
+}
+.ft1 a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.ft1 p{
+    margin-top: 12px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.ftend{
+    display: inline-block;
+    transform: translateY(100px);
+}

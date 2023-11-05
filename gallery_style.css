@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Navigation-Menu*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgb(197, 189, 189);
+    height: 55px;
+    padding: 10px 30px;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    padding-left: 30px;
+}
+.logo a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    list-style: none;
+    padding-right: 75px;
+}
+.navigation ul li{
+    padding: 10px;
+    margin: 10px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 10px;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.navigation ul li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: 2;
+}
+
+
+/* Picture */
+
+.picture{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+     background: linear-gradient(-8deg, rgb(177, 135, 135),rgb(82, 118, 157),rgb(15, 95, 87));
+}
+.content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: inline-block;
+    margin-top: 130px;
+    color: white;
+}
+.content h1{
+    font-size: 60px;
+}
+
+/* Picture */
+
+.container{
+  background: linear-gradient(240deg, rgb(177, 135, 135),rgb(82, 118, 157),rgb(15, 95, 87));
+    height: 290vh;
+    width: 100%;
+    padding: 30px 100px 10px;
+}
+.grid {
+    height: 100%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+  .grid a{
+      transition: all .2s ease-in-out;         
+      box-shadow: 0px 8px 10px rgb(26, 4, 4);  
+      
+  }
+  .grid a:hover{
+    filter: none;
+    box-shadow: 0px 2px 4px rgb(26, 4, 4);   
+    transition: all .2s ease-in;
+    
+}
+  
+  .item {
+    background-color: rgb(255, 0, 149);
+    color: white;
+    font-size: 24px;
+    height: 100%;
+   
+  }
+
+  .pic1{
+    background-image: url("./Picture/Lalbagh_Palace\,_Indore.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .pic2{
+    background-image: url("./Picture/Rajwada_Palace_Main.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .pic3{
+    background-image: url("./Picture/18383177Indore_Mahatma_Gandhi_Hall_Main.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .pic4{
+    background-image: url("./Picture/JahazMahal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pic5{
+    background-image: url("./Picture/gomatgiri.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pic6{
+    background-image: url("./Picture/1280px-Indore_Krishnapura_Chhatri.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pic7{
+    background-image: url("./Picture/Phooti_Kothi_1__DO_NOT_TAKE_.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pic8{
+    background-image: url("./Picture/183831710Indore_Khajrana_Ganesh_Temple_Main.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pic9{
+    background-image: url("./Picture/SukhnivasPalace.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pic10{
+    background-image: url("./Picture/white-church.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pic11{
+    background-image: url("./Picture/indore-museum.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pic12{
+    background-image: url("./Picture/1624862083-968124106.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pic13{
+    background-image: url("/Picture/1532428259_shutterstock_517888153.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .item4{
+    grid-column: span 2;
+  }
+  .item10{
+    grid-column: 2 /span 2;
+  }
+ 

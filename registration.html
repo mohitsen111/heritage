@@ -1,0 +1,74 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="resis_style.css">
+    </head>
+    <body>
+         <!--Navigation-->
+         <nav class="navigation">
+            <div class="logo">
+                <a href="./index.html"><img src="./Screenshot 2022-11-07 091022.png" width="100px" height="50px"></a>
+            </div>
+                <ul>
+                    <li><a href="index.html" target="_parent">Home</a></li>
+                    <li><a href="heritage.html" target="_parent">Heritage</a></li>
+                    <li><a href="registration.html">Hotel Booking</a></li>
+                    <li><a href="gallery.html" target="_parent">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Form-->
+        <div class="container">
+            <div class="flex">
+                <div class="pic">1</div>
+                <div class="form">
+                    <form action="">
+                        <h1>Hotel Registration form</h1>
+                        <label>Full name</label><br>
+                        <input type="text"  id="username" placeholder="Username" required><br>
+                        
+                        <label>Email</label><br>
+                        <input type="email" id="email" name="email" placeholder="email" required><br>
+    
+                        <label for="phone">Phone</label><br>
+                        <input type="phone" id="phone" name="pin" maxlength="10" placeholder="phone" required><br>
+    
+                        <label id="gen">Gender:</label>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender" id="gender">Female <br>
+    
+                        <label>Check-in Date: <input type="date" id="cid"></label><br>
+                        <label>Check-out Date: <input id="cod" type="date"><br>
+                        
+                        <label>Adults:<select id="adt">
+                            <option>1 Person</option>
+                            <option>2 Person</option>
+                            <option>3 Person</option>
+                            <option>More</option>
+                        </select></label><br>
+    
+                        <label>Children:<select id="adt1">
+                            <option>None</option>
+                            <option>1 Person</option>
+                            <option>2 Person</option>
+                            <option>More</option>
+                        </select></label><br>
+                        
+                        <br>
+                        <label id="room">Room Preference:</label><br>
+                        <input type="radio" class="op" name="gender">Standard
+                        <input type="radio" class="op" name="gender">Normal
+                        <input type="radio" name="gender" class="op">Deluxe<br>
+                        
+                        <input type="submit" name="submit" class="bt2" value="Submit">
+                        <input type="reset" name="reset" class="bt3" value="Reset">
+                       
+             </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

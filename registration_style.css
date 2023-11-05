@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Navigation-Menu*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgb(197, 189, 189);
+    height: 55px;
+    padding: 10px 30px;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    padding-left: 30px;
+}
+.logo a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    list-style: none;
+    padding-right: 75px;
+}
+.navigation ul li{
+    padding: 10px;
+    margin: 10px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 10px;
+    letter-spacing: 1px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+   
+}
+.navigation ul li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: 2;
+}
+
+
+/*Form*/
+.flex{
+    box-shadow: 0px 8px 10px rgb(26, 4, 4);  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pic{
+    width: 500px;
+    height: 830px;
+    background-color: aliceblue;
+    background: url(Picture/hd4.jpg) center no-repeat;
+    background-size: cover;
+}
+.form h1{
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.container{
+    height: 100vh;
+    background: linear-gradient(240deg, rgb(177, 135, 135),rgb(82, 118, 157),rgb(15, 95, 87));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+   
+    background-color: white;
+    height: 830px;
+    width: 500px;
+    padding: 20px 80px;    
+    font-size: 23px;
+  
+}
+#username{
+   width: 280px;
+   height: 30px;
+   font-size: 20px;
+   padding: 5px;
+   margin-top: 5px;
+   margin-bottom: 15px;
+}
+
+#email{
+   width: 280px;
+   height: 30px;
+   font-size: 20px;
+   padding: 5px;
+   margin-top: 5px;
+   margin-bottom: 15px;
+}
+
+#phone{
+    width: 280px;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+ }
+ #gen{
+    display: inline-block;
+    margin-right: 55px;
+    margin-bottom: 18px;
+ }
+#gender{
+    margin-bottom: 15px;
+ }
+ #cid{
+    margin-bottom: 15px;
+    font-size: 18px;
+    height: 30px;
+    width: 130px;
+ }
+ #cod{
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    height: 30px;
+    width: 130px;
+ }
+ #adt{
+    margin-left: 110px;
+    font-size: 18px;
+    height: 30px;
+    width: 130px;
+    padding-left: 10px;
+ }
+ #adt1{
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 18px;
+    height: 30px;
+    width: 130px;
+    padding-left: 10px;
+ }
+ .op{
+    margin-right: 10px;
+    display: inline-block;
+ }
+ #room{
+    display: inline-block;
+    margin-bottom: 6px;
+ }
+.bt2{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-top: 40px;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 30px;
+    background-color: rgb(20, 20, 53);
+    color: white;
+    cursor: pointer;
+}
+.bt3{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-top: 40px;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(20, 20, 53);
+    color: white;
+}
